@@ -1,6 +1,8 @@
 ## Instalação
-Já com o composer instalado, vamos baixar algumas depedêcias do projeto.
+Já com o composer instalado, vamos clonar o repositório e baixar algumas depedêcias do projeto.
 ```bash
+git clone https://github.com/misterioso013/enquetes.git
+cd enquetes
 composer update
 ```
 Inicie o servidor de desenvolvimento do Laravel digitando em seu terminal `php artisan serve`.
